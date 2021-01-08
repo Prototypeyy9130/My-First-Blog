@@ -1,4 +1,8 @@
-﻿.page-header {
+﻿body {
+    display:flex;
+    flex-direction:column;
+}
+.page-header {
     background-color: #C25100;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
@@ -12,6 +16,7 @@
 
 .content {
     margin-left: 40px;
+    flex:1;
 }
 
 h1, h2, h3, h4 {
@@ -44,3 +49,15 @@ h1, h2, h3, h4 {
     .post h2 a, .post h2 a:visited {
         color: #000000;
     }
+
+.footer {
+    margin-top:auto;
+    background:#432;
+    text-align:center;
+    padding:26px;
+    bottom:0;
+}
+.footer p{
+    color:#fff;
+    font-size: 0.875rem;
+}
