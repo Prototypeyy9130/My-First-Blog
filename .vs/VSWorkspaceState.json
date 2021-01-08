@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\blog",
+    "\\blog\\static",
+    "\\blog\\templates",
+    "\\blog\\templates\\blog"
+  ],
+  "SelectedNode": "\\blog\\views.py",
+  "PreviewInSolutionExplorer": false
+}
